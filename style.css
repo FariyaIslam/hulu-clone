@@ -7,6 +7,7 @@
  body {
      background-color: #0b0c0f;
      color: white;
+     font-family: 'Noto Sans KR', sans-serif;
  }
 
  .hero {
@@ -34,5 +35,64 @@
      padding: 0 3rem;
      position: fixed;
      top: 0;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
      /* background-color: white; */
+ }
+
+ nav span {
+     font-size: 24px;
+     font-weight: bold;
+ }
+
+ .hero__content {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+ }
+
+ .hero_images {
+     width: 80%;
+     margin: 0 auto;
+     text-align: center;
+ }
+
+ .hero_images img {
+     width: 70%;
+     padding: 1.5rem 0;
+ }
+
+ .hero__content {
+     width: 60%;
+     /* background-color: white; */
+ }
+
+ .hero__content span:nth-child(1) {
+     color: #1ce783;
+     font-weight: bold;
+ }
+
+ .hero__content h2 {
+     font-weight: 800;
+     font-size: 1.5rem;
+     padding: 0 2rem;
+     text-align: center;
+ }
+
+ .hero__content a {
+     font-size: 1rem;
+     color: #1ce783;
+     text-decoration: none;
+ }
+
+ .hero__content .btn {
+     text-align: center;
+     width: 90%;
+     padding: .8rem 2rem;
+     color: rgb(12, 12, 12);
+     background-color: #1ce783;
+     border-radius: 5px;
+     margin: 2rem 0;
  }
