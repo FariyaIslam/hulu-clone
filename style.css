@@ -25,7 +25,7 @@
      left: 0;
      width: 100%;
      position: absolute;
-     filter: brightness(30%);
+     filter: brightness(40%);
      z-index: -1;
  }
 
@@ -60,7 +60,7 @@
  }
 
  .hero_images img {
-     width: 70%;
+     width: 90%;
      padding: 1.5rem 0;
  }
 
@@ -83,7 +83,7 @@
 
  .hero__content a {
      font-size: 1rem;
-     color: #1ce783;
+     color: WHITE;
      text-decoration: none;
  }
 
@@ -95,4 +95,21 @@
      background-color: #1ce783;
      border-radius: 5px;
      margin: 2rem 0;
+ }
+
+ .hero__content .signup {
+     text-decoration: underline;
+ }
+
+ .tv__shows {
+     height: 50vh;
+
+ }
+
+ .tv__content {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+
  }
