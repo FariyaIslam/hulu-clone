@@ -102,14 +102,34 @@
  }
 
  .tv__shows {
-     height: 50vh;
+     padding: 3rem 3rem;
+
 
  }
 
  .tv__content {
+     padding-top: 2rem;
      display: flex;
      align-items: center;
      justify-content: center;
      flex-direction: column;
+ }
 
+ .tv__images {
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+     column-gap: 20px;
+     row-gap: 20px;
+
+
+ }
+
+ .tv__images img {
+     width: 100%;
+     filter: brightness(70%);
+ }
+
+ .img1 {
+     position: relative;
+     bottom: 0;
  }
