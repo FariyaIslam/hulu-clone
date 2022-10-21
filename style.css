@@ -172,3 +172,41 @@
  .img__content h3 {
      font-size: 18px;
  }
+
+ .live__section {
+     height: 70vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+ }
+
+ .live__container {
+     width: 60%;
+     text-align: center;
+ }
+
+ .live__section h5 {
+     color: #00ED82;
+     font-size: 12px;
+     padding-bottom: 1rem;
+ }
+
+ .live__section h2 {
+     font-size: 48px;
+     font-weight: 600;
+     letter-spacing: 1px;
+     margin-bottom: 2rem;
+
+ }
+
+ .live__section p {
+     color: rgb(212, 211, 211);
+     font-size: 18px;
+     font-weight: 400;
+     line-height: 1.32;
+ }
+
+ .live__container span {
+     color: #00ED82;
+ }
