@@ -129,7 +129,16 @@
      filter: brightness(70%);
  }
 
- .img1 {
+ .img1,
+ .img2,
+ .img3,
+ .img4 {
      position: relative;
-     bottom: 0;
+ }
+
+ .img__content {
+     position: absolute;
+     top: 0;
+     padding: 2rem 2rem;
+
  }
