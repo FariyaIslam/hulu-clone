@@ -115,6 +115,24 @@
      flex-direction: column;
  }
 
+ .tv__content h5 {
+     font-size: 12px;
+     color: #00ED82;
+     letter-spacing: 0.6px;
+ }
+
+ .tv__content h2 {
+     font-size: 50px;
+     font-weight: 600;
+     letter-spacing: -0.2px;
+     margin: 1rem 0;
+ }
+
+ .tv__content p {
+     margin-bottom: 3rem;
+     text-align: center;
+ }
+
  .tv__images {
      display: grid;
      grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -140,5 +158,10 @@
      position: absolute;
      top: 0;
      padding: 2rem 2rem;
+ }
 
+ .img1 span {
+     font-size: 12px;
+     font-weight: 500;
+     margin-bottom: 2rem;
  }
