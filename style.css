@@ -160,8 +160,15 @@
      padding: 2rem 2rem;
  }
 
- .img1 span {
+ .img1,
+ .img2,
+ .img3,
+ .img4 span {
      font-size: 12px;
-     font-weight: 500;
+     font-weight: 50;
      margin-bottom: 2rem;
+ }
+
+ .img__content h3 {
+     font-size: 18px;
  }
