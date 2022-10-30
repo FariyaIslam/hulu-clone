@@ -42,7 +42,7 @@
  }
 
  nav span {
-     font-size: 24px;
+     font-size: 20px;
      font-weight: bold;
  }
 
@@ -209,7 +209,6 @@
 
  .live__container span {
      display: block;
-     background-color: red;
      margin-top: 1rem;
  }
 
@@ -240,14 +239,24 @@
      column-gap: .5rem;
  }
 
- .sports__parent {
-     height: 90vh;
+ .sports__container {
+     height: 100vh;
      width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-image: url('./img/sports_bg.jpg');
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+ }
+
+ .sports__parent {
+     width: 90%;
+     height: 80%;
      display: flex;
      align-items: center;
      justify-content: center;
-     background-color: chartreuse;
-     text-align: center;
  }
 
  .left__content {
@@ -266,11 +275,16 @@
      font-size: 16px;
      font-weight: 400;
      line-height: 1.36;
-     text-align: left;
  }
 
  .right__content {
      background-color: rgb(157, 62, 253);
      width: 50%;
+ }
 
+ footer p {
+     font-size: 12px;
+     color: black;
+     text-align: center;
+     margin-top: 2rem;
  }
